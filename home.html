@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sakthi Motors — Home</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="navwrap">
+    <a class="logo" href="home.html">
+      <div class="logo-mark"><span>S</span></div>
+      <div class="logo-text">SAKTHI<small>Motors Showroom</small></div>
+    </a>
+    <nav class="mainnav" id="mainNav">
+      <a class="navlink active" href="home.html">Home</a>
+      <a class="navlink" href="cars.html">Cars</a>
+      <a class="navlink" href="services.html">Services</a>
+      <a class="navlink" href="gallery.html">Gallery</a>
+      <a class="navlink" href="contact.html">Contact</a>
+      <span id="navIndicator"></span>
+    </nav>
+    <div style="display:flex; align-items:center; gap:14px;">
+      <a class="cta-btn" href="contact.html">Book Test Drive</a>
+      <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+</header>
+
+<div id="mobileNav">
+  <a class="navlink active" href="home.html">Home</a>
+  <a class="navlink" href="cars.html">Cars</a>
+  <a class="navlink" href="services.html">Services</a>
+  <a class="navlink" href="gallery.html">Gallery</a>
+  <a class="navlink" href="contact.html">Contact</a>
+</div>
+
+<main class="page">
+
+  <div class="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1755288348835-dc6c29852299?fm=jpg&q=80&w=1800&auto=format&fit=crop" alt="Sakthi Motors showroom floor">
+    </div>
+    <div class="wrap hero-content">
+      <div class="eyebrow">Sakthi Motors — Est. Showroom</div>
+      <h1>Power meets <em>precision</em> on every showroom floor.</h1>
+      <p class="hero-sub">Sakthi Motors brings you a curated fleet of performance and family cars, honest pricing, and a service floor built for people who take their driving seriously.</p>
+      <div class="hero-actions">
+        <a class="cta-btn" href="cars.html">Browse Cars</a>
+        <a class="cta-outline" href="contact.html">Book Test Drive</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="stat-strip">
+    <div class="stat-item"><div class="stat-num mono" data-count="18">0</div><div class="stat-label">Models on floor</div></div>
+    <div class="stat-item"><div class="stat-num mono" data-count="6">0</div><div class="stat-label">Brands showcased</div></div>
+    <div class="stat-item"><div class="stat-num mono" data-count="12">0</div><div class="stat-label">Years running</div></div>
+    <div class="stat-item"><div class="stat-num mono" data-count="4200">0</div><div class="stat-label">Test drives given</div></div>
+  </div>
+
+  <div class="ticker">
+    <div class="ticker-track">
+      <span>★ FESTIVE OFFER — ZERO PROCESSING FEE ON FINANCE</span>
+      <span>★ EXCHANGE BONUS UP TO ₹40,000 ON SELECT MODELS</span>
+      <span>★ FREE EXTENDED WARRANTY ON BOOKINGS THIS MONTH</span>
+      <span>★ FESTIVE OFFER — ZERO PROCESSING FEE ON FINANCE</span>
+      <span>★ EXCHANGE BONUS UP TO ₹40,000 ON SELECT MODELS</span>
+      <span>★ FREE EXTENDED WARRANTY ON BOOKINGS THIS MONTH</span>
+    </div>
+  </div>
+
+  <section class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Featured Cars</div>
+      <h2>This week on the floor</h2>
+      <p>A quick look at what's turning heads in the showroom right now.</p>
+    </div>
+    <div class="grid grid-3" id="featuredGrid"></div>
+  </section>
+
+  <section class="wrap tight">
+    <div class="section-head">
+      <div class="eyebrow">Brands We Showcase</div>
+      <h2>Trusted names, one floor</h2>
+    </div>
+    <div class="grid grid-4" style="gap:16px;">
+      <div class="service-card" style="text-align:center; padding:24px;"><h3 style="font-size:16px;">Velocity</h3></div>
+      <div class="service-card" style="text-align:center; padding:24px;"><h3 style="font-size:16px;">Terra Motors</h3></div>
+      <div class="service-card" style="text-align:center; padding:24px;"><h3 style="font-size:16px;">Ember Auto</h3></div>
+      <div class="service-card" style="text-align:center; padding:24px;"><h3 style="font-size:16px;">Nova EV</h3></div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap foot-row">
+    <p>© 2026 Sakthi Motors. Frontend demo showroom — HTML, CSS &amp; JS only.</p>
+    <div class="foot-links">
+      <a href="cars.html">Cars</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

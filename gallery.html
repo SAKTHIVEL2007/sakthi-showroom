@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sakthi Motors — Gallery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="navwrap">
+    <a class="logo" href="home.html">
+      <div class="logo-mark"><span>S</span></div>
+      <div class="logo-text">SAKTHI<small>Motors Showroom</small></div>
+    </a>
+    <nav class="mainnav" id="mainNav">
+      <a class="navlink" href="home.html">Home</a>
+      <a class="navlink" href="cars.html">Cars</a>
+      <a class="navlink" href="services.html">Services</a>
+      <a class="navlink active" href="gallery.html">Gallery</a>
+      <a class="navlink" href="contact.html">Contact</a>
+      <span id="navIndicator"></span>
+    </nav>
+    <div style="display:flex; align-items:center; gap:14px;">
+      <a class="cta-btn" href="contact.html">Book Test Drive</a>
+      <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+</header>
+
+<div id="mobileNav">
+  <a class="navlink" href="home.html">Home</a>
+  <a class="navlink" href="cars.html">Cars</a>
+  <a class="navlink" href="services.html">Services</a>
+  <a class="navlink active" href="gallery.html">Gallery</a>
+  <a class="navlink" href="contact.html">Contact</a>
+</div>
+
+<main class="page">
+  <div class="page-banner">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1708516893277-232fb2bfb198?fm=jpg&q=80&w=1800&auto=format&fit=crop" alt="Sakthi Motors gallery">
+    </div>
+    <div class="wrap page-banner-content">
+      <div class="eyebrow">Gallery</div>
+      <h1>Exterior. Interior. Engine.</h1>
+    </div>
+  </div>
+
+  <section class="wrap" style="padding-top:56px;">
+    <div class="section-head">
+      <p>A closer look at what's on the floor, plus a few words from customers who've driven home with us.</p>
+    </div>
+    <div class="filter-row" id="galFilterRow">
+      <button class="chip active" data-gfilter="all">All</button>
+      <button class="chip" data-gfilter="exterior">Exterior</button>
+      <button class="chip" data-gfilter="interior">Interior</button>
+      <button class="chip" data-gfilter="engine">Engine</button>
+      <button class="chip" data-gfilter="videos">Videos</button>
+      <button class="chip" data-gfilter="reviews">Reviews</button>
+    </div>
+    <div class="gallery-grid" id="galleryGrid"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-row">
+    <p>© 2026 Sakthi Motors. Frontend demo showroom — HTML, CSS &amp; JS only.</p>
+    <div class="foot-links">
+      <a href="cars.html">Cars</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
